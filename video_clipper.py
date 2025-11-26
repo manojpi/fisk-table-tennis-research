@@ -4,7 +4,7 @@ import logging
 
 logging.basicConfig(format='\033[91m%(levelname)s: %(message)s\033[0m', level=logging.ERROR)
 
-def split_video_segment(video_path, start_time, end_time, output_path="output_clip.mp4"):
+def split_video_segment(video_path, start_time, end_time, output_path="mmaction2/data/table_tennis/train"):
     '''
     Clip the vidoes and save them
     '''

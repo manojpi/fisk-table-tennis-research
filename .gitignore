@@ -2,3 +2,5 @@ mmaction2/
 models/
 data/
 checkpoints/
+*.xlsx
+table_tennis_data/
